@@ -1,0 +1,29 @@
+{
+  "name": "quick-tests",
+  "version": "1.0.0",
+  "description": "Generate unit tests from bullet lists in YAML format",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weblidity/quick-tests.git"
+  },
+  "keywords": [
+    "unit",
+    "test",
+    "yaml",
+    "testing",
+    "specifications"
+  ],
+  "author": "Ion Gireada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weblidity/quick-tests/issues"
+  },
+  "homepage": "https://github.com/weblidity/quick-tests#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
