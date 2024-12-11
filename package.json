@@ -4,7 +4,10 @@
   "description": "Generate unit tests from bullet lists in YAML format",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "jest"
+  },
+  "bin": {
+    "quick-tests": "bin/cli.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +28,10 @@
   "homepage": "https://github.com/weblidity/quick-tests#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "glob": "^11.0.0",
+    "js-yaml": "^4.1.0"
   }
 }

@@ -1,0 +1,7 @@
+- CLI:
+    - Another Suite:
+        - Test
+        - Test 2
+        - Another Suite:
+            - Test
+            - Test 2
